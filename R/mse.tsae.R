@@ -1,12 +1,12 @@
 #' @title Parametric Mean Squared Error of EBLUPs based on a Univariate small area estimation using t-distribution approach
 #' @description This function gives MSE based on univariate t-distribution model
 #' @param formula an object of class \code{\link[stats]{formula}} that describe the fitted model.
-#' @param vardir vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.
-#' @param sigma2u.awal vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.
-#' @param df number containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.
-#' @param maxiter vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.
-#' @param tolerance vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.
-#' @param data vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.
+#' @param vardir sampling variances of direct estimations. If data is defined, it is a vector containing names of sampling variance columns.
+#' @param sigma2u.awal number random for first sigma2u, Default \code{0}.
+#' @param df number containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula},default:\code{3}.
+#' @param maxiter maximum number of iterations allowed in the Fisher-scoring algorithm, Default: \code{1000}.
+#' @param tolerance convergence tolerance limit for the Fisher-scoring algorithm, Default: \code{1e-4}.
+#' @param data matrix that include vardir, auxiliary variable, response variabel.
 #' @export mse.tsae
 #' @import utils
 #' @import stats

@@ -9,17 +9,17 @@ mse.tsae(formula, sigma2u.awal, vardir, df, maxiter, tolerance, data)
 \arguments{
 \item{formula}{an object of class \code{\link[stats]{formula}} that describe the fitted model.}
 
-\item{sigma2u.awal}{vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.}
+\item{sigma2u.awal}{number random for first sigma2u, Default \code{0}.}
 
-\item{vardir}{vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.}
+\item{vardir}{sampling variances of direct estimations. If data is defined, it is a vector containing names of sampling variance columns.}
 
-\item{df}{number containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.}
+\item{df}{number containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula},default:\code{3}.}
 
-\item{maxiter}{vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.}
+\item{maxiter}{maximum number of iterations allowed in the Fisher-scoring algorithm, Default: \code{1000}.}
 
-\item{tolerance}{vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.}
+\item{tolerance}{convergence tolerance limit for the Fisher-scoring algorithm, Default: \code{1e-4}.}
 
-\item{data}{vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.}
+\item{data}{matrix that include vardir, auxiliary variable, response variabel.}
 }
 \description{
 This function gives MSE based on univariate t-distribution model
