@@ -1,0 +1,21 @@
+Package: tsae
+Type: Package
+Title: Small Area Estimation Using t-distribution Approach
+Version: 0.1.0
+Authors@R: c(person("M. Aris", "Munandar", role = c("aut", "cre"),
+                    email = "221810396@stis.ac.id"),
+              person("Cucu", "Sumarni", role = c("aut"),
+                    email = "cucu@stis.ac.id"))
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+maintainer:
+RoxygenNote:7.2.1
+BugReports: https://github.com/mrijalussholihin/sae.prop/issues
+URL: https://github.com/marismun/tsae
+Import: stats, utils
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
