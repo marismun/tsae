@@ -21,7 +21,7 @@ ecm.tsae(
 
 \item{sigma2u}{vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.}
 
-\item{df}{vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.}
+\item{df}{number}
 
 \item{maxiter}{vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.}
 

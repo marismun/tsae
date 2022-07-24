@@ -6,8 +6,7 @@ Authors@R: c(person("M. Aris", "Munandar", role = c("aut", "cre"),
                     email = "221810396@stis.ac.id"),
               person("Cucu", "Sumarni", role = c("aut"),
                     email = "cucu@stis.ac.id"))
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: Implements Robust t-dsitribution approach for Small Area Estimation with outlier in response variable.Small Area Estimation is used to boroow strength from auxiliary variable to improve the effectiveness of a domain sample size. This package uses Empirical Best Linear Prediction (EBLUP) estimator. The Robust t-distribution model are based on Cucu Sumarni (2020).
 License: GPL-3
 Encoding: UTF-8
 LazyData: true

@@ -3,7 +3,7 @@
 #' @param formula an object of class \code{\link[stats]{formula}} that describe the fitted model.
 #' @param vardir vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.
 #' @param sigma2u vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.
-#' @param df vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.
+#' @param df number
 #' @param maxiter vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.
 #' @param tolerance vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.
 #' @param data vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.

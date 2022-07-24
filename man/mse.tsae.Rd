@@ -13,7 +13,7 @@ mse.tsae(formula, sigma2u.awal, vardir, df, maxiter, tolerance, data)
 
 \item{vardir}{vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.}
 
-\item{df}{Scalar containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.}
+\item{df}{number containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.}
 
 \item{maxiter}{vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.}
 
