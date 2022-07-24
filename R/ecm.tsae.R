@@ -7,6 +7,10 @@
 #' @param maxiter vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.
 #' @param tolerance vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.
 #' @param data vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.
+#' @export ecm.tsae
+#' @import utils
+#' @import stats
+
 ecm.tsae<- function(formula,vardir,sigma2u,df=3,maxiter=1000,tolerance=10^(-4), data){
 
 
@@ -33,7 +37,7 @@ ecm.tsae<- function(formula,vardir,sigma2u,df=3,maxiter=1000,tolerance=10^(-4), 
   }
 
   if (any(is.na(vardir))){
-    stop("Argument vardir=", namevar, " contains NA values.")
+    stop("Argument vardir="," contains NA values.")
   }
 
   m<-length(y)
