@@ -2,7 +2,7 @@
 % Please edit documentation in R/mse.tsae.R
 \name{mse.tsae}
 \alias{mse.tsae}
-\title{Parametric Bootstrap Mean Squared Error of EBLUPs based on a Univariate Fay Herriot model with Additive Logistic Transformation for Non-Sampled Data}
+\title{Parametric Mean Squared Error of EBLUPs based on a Univariate small area estimation using t-distribution approach}
 \usage{
 mse.tsae(formula, sigma2u.awal, vardir, df, maxiter, tolerance, data)
 }
@@ -13,7 +13,7 @@ mse.tsae(formula, sigma2u.awal, vardir, df, maxiter, tolerance, data)
 
 \item{vardir}{vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.}
 
-\item{df}{vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.}
+\item{df}{Scalar containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.}
 
 \item{maxiter}{vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.}
 
@@ -22,5 +22,5 @@ mse.tsae(formula, sigma2u.awal, vardir, df, maxiter, tolerance, data)
 \item{data}{vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.}
 }
 \description{
-This function gives the MSE of transformed EBLUP based on a univariate Fay-Herriot model. For sampled domains, MSE is estimated using modified parametric bootstrap approach proposed by Butar & Lahiri. For non-sampled domains, MSE is estimated using modified approach proposed by Haris & Ubaidillah.
+This function gives MSE based on univariate t-distribution model
 }

@@ -2,7 +2,7 @@
 % Please edit documentation in R/ecm.tsae.R
 \name{ecm.tsae}
 \alias{ecm.tsae}
-\title{Parametric Bootstrap Mean Squared Error of EBLUPs based on a Univariate Fay Herriot model with Additive Logistic Transformation for Non-Sampled Data}
+\title{EBLUPs univariate small area estimation using t-distrubiton approach}
 \usage{
 ecm.tsae(
   formula,
@@ -30,5 +30,5 @@ ecm.tsae(
 \item{data}{vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.}
 }
 \description{
-This function gives the MSE of transformed EBLUP based on a univariate Fay-Herriot model. For sampled domains, MSE is estimated using modified parametric bootstrap approach proposed by Butar & Lahiri. For non-sampled domains, MSE is estimated using modified approach proposed by Haris & Ubaidillah.
+This function is used for small area estimation thats have outlier in respons variable
 }

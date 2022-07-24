@@ -1,9 +1,9 @@
-#' @title Parametric Bootstrap Mean Squared Error of EBLUPs based on a Univariate Fay Herriot model with Additive Logistic Transformation for Non-Sampled Data
-#' @description This function gives the MSE of transformed EBLUP based on a univariate Fay-Herriot model. For sampled domains, MSE is estimated using modified parametric bootstrap approach proposed by Butar & Lahiri. For non-sampled domains, MSE is estimated using modified approach proposed by Haris & Ubaidillah.
+#' @title Parametric Mean Squared Error of EBLUPs based on a Univariate small area estimation using t-distribution approach
+#' @description This function gives MSE based on univariate t-distribution model
 #' @param formula an object of class \code{\link[stats]{formula}} that describe the fitted model.
 #' @param vardir vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.
 #' @param sigma2u.awal vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.
-#' @param df vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.
+#' @param df Scalar containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.
 #' @param maxiter vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.
 #' @param tolerance vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.
 #' @param data vector containing the sampling variances of direct estimators for each domain. The values must be sorted as the variables in \code{formula}.
